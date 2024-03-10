@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main-block {
+    background: url(../images/main-block-background.jpg);
+    padding: 234px 0 248px 0
+}
+.main-text-selection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-title {
+    font-family: Montserrat;
+    font-size: 83px;
+    font-weight: 700;
+    line-height: 101px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FF603D;
+}
+.main-subtitle {
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#2F3337;
+    height: 33px;
+    margin: 11px 0 0 0         
+}
+.main-button {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#1E2E3D;
+    width: 169px;
+    height: 16px;
+    margin: 55px 0 0 0;
+    border: 3px solid #FF603D;
+    padding: 27px 16px 27px 15px;
+    border-radius: 20px;
+}
+.about-me-block {
+    background-color:#FF603D;
+    padding: 72px 0 176px 0;
+}
+.about-me-title {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 49px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.kartinka {
+    margin: 47px 0 0 200px
+}
+.person-info-block {
+    display: flex;    
+}
+.person-info-text {
+    display: flex;
+    margin: 89px 0 0 89px;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF
+}
+.profession-block {
+    background: url(../images/not-main-block-background.jpg);
+    margin: 115px auto;
+    width: 80%;
+}
+
+.profession-tytle {
+    display: flex;
+    font-family: Montserrat;
+    font-size: 52px;
+    font-weight: 700;
+    Line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+.profession-text {
+    margin-top: 40px;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #2F3337;
+
+}
+.footer-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 178px
+}
+.contacts-blocks {
+    margin: 38px
+}
+.anekdotu-titul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-size: 52px;
+    font-weight: 700;
+    Line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+}
+.anek {
+    aspect-ratio: 4;
+    width: 100%
+}
+@media screen and (max-width: 1024px) {
+    .person-info-block {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 715px) {
+    .main-title {
+        font-size: 60px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .main-title {
+        font-size: 40px;
+    }
+}
